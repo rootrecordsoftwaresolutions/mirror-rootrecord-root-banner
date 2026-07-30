@@ -60,7 +60,7 @@ public final class RootBannerPlugin extends JavaPlugin {
         symbolPrice = cfg != null ? cfg.getDouble("prices.number-or-symbol", 25) : 25;
         maxBanners = Math.max(1, cfg != null ? cfg.getInt("limits.max-banners", 36) : 36);
         confirmSeconds = Math.max(10, cfg != null ? cfg.getInt("limits.confirm-seconds", 60) : 60);
-        prefix = cfg != null ? cfg.getString("messages.prefix", "&6[Banner] &r") : "&6[Banner] &r";
+        prefix = cfg != null ? cfg.getString("messages.prefix", "") : "";
         helpLines = cfg != null ? cfg.getStringList("messages.help") : List.of();
     }
 

@@ -18,7 +18,7 @@ limits:
   confirm-seconds: 60
 
 messages:
-  prefix: "&6[Banner] &r"
+  prefix: ""
   no-permission: "&cYou do not have permission."
   disabled: "&cBanner shop is disabled."
   economy-missing: "&cEconomy is unavailable — ask staff."
